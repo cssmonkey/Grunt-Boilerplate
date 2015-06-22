@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="lt-ie9 lt-ie8 ie7"> <![endif]-->
+<!--[if IE 8]>         <html class="lt-ie9 ie8"> <![endif]-->
+<!--[if IE 9]>         <html class="ie9"> <![endif]-->
+<!--[if gt IE 9]>-->
+<html lang="en-GB">
+<!--<![endif]-->
+<head>
+<title>Test</title>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<link rel="stylesheet" href="/assets/css/style.css">
+
+<link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700' rel='stylesheet' type='text/css'>
+
+<link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+<script>
+    /* set the html tag to have a javascript class to hide all the dynamic stuff */
+    document.getElementsByTagName("html")[0].className += " js";
+
+    /* workaround to get viewport size working on windows8 mobile */
+    if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+        var msViewportStyle = document.createElement("style");
+        msViewportStyle.appendChild(
+                document.createTextNode(
+                    "@-ms-viewport{width:auto!important}"
+                )
+            );
+        document.getElementsByTagName("head")[0].
+                appendChild(msViewportStyle);
+    }
+</script>
+
+</head>
+<body>
+   <h1>Test</h1>
+   <script src="assets/js/app.js"></script>
+</body>
+</html>
