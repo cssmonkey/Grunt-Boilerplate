@@ -1,0 +1,6 @@
+﻿{
+    "default": [ "browserSync", "watch" ],
+    "css": [ "less:dev" ],
+    "spritegen": [ "sprite:all" ],
+    "checkperformance": [ "phantomas" ]
+}
