@@ -1,5 +1,5 @@
 {
-  "name": "Grunt boilerplate",
+  "name": "Grunt-boilerplate",
   "version": "1.0.0",
   "description": "Starter config for Grunt",
   "main": "Gruntfile.js",
